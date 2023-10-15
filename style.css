@@ -1,0 +1,45 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lora:ital,wght@0,400;0,500;1,400&family=Satisfy&family=Special+Elite&family=Young+Serif&family=Zeyada&display=swap');
+
+@font-face {
+    font-family: 'i-love-glitter';
+    src: url(fonts/i-love-glitter.otf);
+}
+
+*{
+	/* font-family: 'Poppins'; */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+  	text-decoration: none;
+  	list-style: none;
+}
+
+body{
+	color: #0e2045;
+	background: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    padding: 50px;
+}
+
+main {
+    background: #f1f5ff;
+    border-radius: 12px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.02);
+    border: 2px solid rgb(211, 225, 255);
+}
+
+p {
+    font-family: 'Loras';
+    line-height: 2rem;
+}
